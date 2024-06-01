@@ -19,7 +19,7 @@ public class ContaTerminal {
 		String sobrenome = scanner.next();
 		
 		System.out.println("Digite quanto você quer depositar: ");
-		double saldo = scanner.nextDouble();
+		double saldo = scanner.nextDouble(); // input de saldo 
 		
 		
 		System.out.println("Olá "+nome.concat(" ").concat(sobrenome).concat(", ")+ "obrigado por criar uma conta em nosso banco, sua agência é "+ agencia + ", conta"+ usuario +", e seu saldo é "+ saldo +" já está disponível para saque");
